@@ -1,0 +1,16 @@
+DEMONSTRATION DATA ONLY — FICTIONAL EXAMPLE, NOT A REAL COMPANY POLICY.
+
+Annual Leave (demo only):
+For this demonstration, the fictional company provides 20 days of annual leave per calendar year. Employees submit requests to their manager for approval.
+
+Parental Leave (demo only):
+For this demonstration, employees should submit parental-leave requests to HR. This sample does not specify eligibility or duration; those questions must be referred to HR.
+
+Sick Leave (demo only):
+For this demonstration, employees should notify their manager when taking sick leave. This sample does not specify whether medical documentation is required; refer that question to HR.
+
+Employee Benefits (demo only):
+For this demonstration, benefit eligibility depends on employment status and the applicable benefit policy. Individual eligibility questions must be reviewed by HR.
+
+HR Escalation (demo only):
+Questions that are unclear, sensitive, individual-specific, or unsupported by the available policy information must be escalated to an HR specialist.

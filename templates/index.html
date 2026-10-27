@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HR Policy Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="layout">
+    <header>
+      <div class="badge">HR AI</div>
+      <div>
+        <h1>HR Policy Assistant</h1>
+        <p>Local question answering with TF-IDF retrieval and Ollama · {{ model }}</p>
+      </div>
+    </header>
+    <div class="notice"><strong>Demo mode:</strong> The bundled policy text is fictional and for demonstration only. Do not use it as real HR advice.</div>
+    <section id="messages" class="messages" aria-live="polite">
+      <article class="message assistant">
+        <strong>Assistant</strong>
+        <p>Ask about the sample annual leave, parental leave, sick leave, or benefits policies. Unsupported or sensitive questions should be referred to HR.</p>
+      </article>
+    </section>
+    <form id="chat-form">
+      <label for="question">Your HR policy question</label>
+      <textarea id="question" rows="3" maxlength="1500" placeholder="For example: How many annual leave days are available?" required></textarea>
+      <div class="actions">
+        <button type="submit" id="send">Ask question</button>
+        <button type="button" id="health" class="secondary">Check Ollama</button>
+      </div>
+    </form>
+    <p id="status" class="status"></p>
+    <footer>Sources are displayed with each answer. This prototype does not replace an HR specialist.</footer>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

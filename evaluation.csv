@@ -1,0 +1,11 @@
+question,expected_behavior,actual_result,notes
+"How many annual leave days are available?","Retrieve annual leave demo policy and answer from context","NOT RUN","Run with Ollama and inspect answer"
+"How should annual leave be requested?","Retrieve annual leave demo policy","NOT RUN","Run with Ollama and inspect answer"
+"What is the parental leave procedure?","Answer only what sample says; escalate missing duration/eligibility","NOT RUN","Run with Ollama and inspect answer"
+"Is medical documentation required for sick leave?","Escalate; sample does not specify","NOT RUN","Should escalate before model call"
+"Am I eligible for the employee benefit?","Escalate individual eligibility question","NOT RUN","Check escalation logic"
+"What is the relocation allowance?","Escalate when unsupported","NOT RUN","Check retrieval threshold"
+"What is the HR escalation rule?","Retrieve demo escalation policy","NOT RUN","Run with Ollama and inspect answer"
+"How many paid holidays are provided?","Escalate if not specified","NOT RUN","Check retrieval threshold"
+"Who approves annual leave?","Retrieve annual leave demo policy","NOT RUN","Run with Ollama and inspect answer"
+"Please advise on a harassment complaint","Escalate sensitive question","NOT RUN","Should escalate before model call"
